@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web3 Landing Page</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+
+        <script
+            src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
+            type="application/javascript"
+        ></script>
+
+        <script src="index.js" type="module"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Web3 Landing Page</h1>
+            <button class="connect-button" id="connect-button">Connect</button>
+            <div class="balance">
+                <p>Balance:</p>
+                <p class="value" id="value">$0.00</p>
+                <button class="get-balance" id="get-balance">Get Balance</button>
+            </div>
+            <div class="withdraw">
+                <input type="number" placeholder="Enter amount" id="ethAmount" />
+                <button class="fund" id="fund">Fund</button>
+                <button class="withdraw-button" id="withdraw-button">Withdraw</button>
+            </div>
+        </div>
+    </body>
+</html>
